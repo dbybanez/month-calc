@@ -6,7 +6,7 @@ function monthDiff (d1, d2) {
     return months <= 0 ? 0 : months;
 }
 
-function test(d1, d2) {
+function test (d1, d2) {
     var diff = monthDiff(d1, d2);
     let name = "Awiwo"
     console.log(`Happy ${diff} months, ${name}!!! I love you!!!`)
